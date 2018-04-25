@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--conten-->
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Logo-->
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--User-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--Icon-->
+          <ImageView
+              android:layout_gravity="center_vertical"
+              android:src="@drawable/ic_action_user"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+
+            <!--TextFeild-->
+            <EditText
+                android:inputType="text"
+                android:hint="User :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--Password-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--Icon-->
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_action_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--TextFeild-->
+            <EditText
+                android:inputType="textPassword"
+                android:hint="Password :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--Login Button-->
+        <Button
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--Register-->
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="New Register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
